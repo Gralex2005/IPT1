@@ -32,7 +32,7 @@ section h2 {
 }
 
 p {
-    font-size: 2em; /* Increased font size */
+    font-size: 2em; 
     color: #555;
     margin-bottom: 1em;
 }
@@ -52,7 +52,7 @@ footer {
 }
 
 .content img {
-    max-width: 20%; /* Made images smaller */
+    max-width: 20%; 
     height: auto;
     border-radius: 8px;
     margin-right: 20px;
@@ -60,7 +60,7 @@ footer {
 }
 
 .content p {
-    max-width: 75%; /* Increased space for text */
+    max-width: 75%;
 }
 
 @media (max-width: 768px) {
@@ -70,7 +70,7 @@ footer {
     }
 
     .content img {
-        max-width: 40%; /* Made images smaller on smaller screens */
+        max-width: 40%; 
         margin: 0 0 20px 0;
     }
 
