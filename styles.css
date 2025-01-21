@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0e0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #616161;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 2em;
+    margin: 0 15%;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+}
+
+section h2 {
+    font-size: 3em;
+    color: #424242;
+}
+
+p {
+    font-size: 2em; /* Increased font size */
+    color: #555;
+    margin-bottom: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #616161;
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content img {
+    max-width: 20%; /* Made images smaller */
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content p {
+    max-width: 75%; /* Increased space for text */
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content img {
+        max-width: 40%; /* Made images smaller on smaller screens */
+        margin: 0 0 20px 0;
+    }
+
+    .content p {
+        max-width: 90%;
+    }
+}
